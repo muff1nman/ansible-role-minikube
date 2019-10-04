@@ -1,0 +1,7 @@
+---
+- name: Download minikube
+  get_url:
+    url: "{{ minikube_uri }}"
+    checksum: "{{ minikube_checksum }}"
+    dest: /usr/local/bin/minikube
+    mode: 0775
