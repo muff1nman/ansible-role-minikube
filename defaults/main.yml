@@ -1,6 +1,7 @@
 ---
-minikube_version: "1.4.0"
+minikube_version: "1.23.1"
 minikube_uri: "https://github.com/kubernetes/minikube/releases/download/v{{ minikube_version }}/minikube-linux-amd64"
 minikube_checksums:
   1.4.0: "sha256:e63b8007c2d39fd037587adff2ec5360a910b51f427f0d1521fce5f3cac5e0fd"
+  1.23.1: "sha256:fc23f94e870b18c2fc015af18fe2dee00452059100e42a5483b9440da1a5fba2"
 minikube_checksum: "{{ minikube_checksums[minikube_version] }}"
